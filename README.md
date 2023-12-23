@@ -98,7 +98,7 @@ driver.get('https://www.google.com')
 ``` bash
 driver.get("https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession")
 ```
-![](https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/gmail_acc.png)
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/gmail_acc.png" width="400" height="300" alt="Gmail Account Screenshot">
 
 **For the Next Step, read the instruction first , then follow the instructions to add yourgmailacc@gmail.com**
 
