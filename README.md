@@ -98,7 +98,7 @@ driver.get('https://www.google.com')
 ``` bash
 driver.get("https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession")
 ```
-<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/gmail_acc.png" width="400" height="300" alt="Gmail Account Screenshot">
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/gmail_acc.png" width="400" height="auto" alt="Gmail Account Screenshot">
 
 **For the Next Step, read the instruction first , then follow the instructions to add yourgmailacc@gmail.com**
 
@@ -106,10 +106,17 @@ To find the ID of an element in a web browser, you can follow these steps:
 
 1. Open your web browser and navigate to the desired webpage.
 2. Right-click anywhere on the webpage and select "Inspect" or "Inspect Element" from the context menu. This will open the browser's developer tools.
+
+
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/inspect%20element.png" width="400" height="auto" alt="Inspect Element in Browser">
+
+
 3. In the developer tools, you can use the shortcut Ctrl + F (or Command + F on macOS) to open the search bar.
 4. Type the ID you are looking for in the search bar and press Enter. The developer tools will highlight the element with the matching ID.
 5. Take note of the ID for later use in your code. see the screenshot image below .. 
 
+
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/find.png" width="400" height="auto" alt="Gmail username ID">
 
 Once you have identified the ID of the element you want to interact with, you can use the `find_element_by_id` function to locate it in the web browser. This function takes a single parameter, `identifierID`, which is a string representing the ID of the element to be found. 
 
@@ -121,6 +128,7 @@ driver.find_element(By.ID, "identifierId").send_keys("yourgmailacc@gmail.com")
 time.sleep(2)
 ```
 
+
 **Clicks on the 'Next' button and waits for 2 seconds**
 ``` bash
 driver.find_element(By.XPATH, "//span[text()='Next']").click()
@@ -128,6 +136,11 @@ time.sleep(2)
 ```
 
 Search for the password in in the search bar and press Enter. The developer tools will highlight the element with the matching ID. See the below image ..
+
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/password.png" width="400" height="auto" alt="find_password_id">
+
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/password_input_text.png
+" width="600" height="auto" alt="password_input_text_box">
 
 **Identify the user name text box and enter the value** 
 ``` bash
