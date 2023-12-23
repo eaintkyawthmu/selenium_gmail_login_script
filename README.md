@@ -139,8 +139,7 @@ Search for the password in in the search bar and press Enter. The developer tool
 
 <img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/password.png" width="400" height="auto" alt="find_password_id">
 
-<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/password_input_text.png
-" width="600" height="auto" alt="password_input_text_box">
+<img src="https://github.com/eaintkyawthmu/selenium_gmail_login_script/blob/main/images/password_input_text.png" width="600" height="auto" alt="password_input_text_box">
 
 **Identify the user name text box and enter the value** 
 ``` bash

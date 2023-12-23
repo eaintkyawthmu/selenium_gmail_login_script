@@ -1,0 +1,2 @@
+# Create a .gitignore file 
+echo ".Zone.Identifier" >> .gitignore
