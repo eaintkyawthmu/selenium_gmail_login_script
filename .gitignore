@@ -1,2 +1,3 @@
 # Create a .gitignore file 
-echo ".Zone.Identifier" >> .gitignore
+".Zone.Identifier"
+/images/*.Zone.Identifier
